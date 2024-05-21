@@ -38,7 +38,7 @@ nav ul li a{
 
 /******* HERO SECTION ********/
 .hero{
-  background-image: url('https://lh3.googleusercontent.com/drive-storage/AJQWtBMH8KG4J8cYjzg-3k0JmFmYGQ2Guq6gOYxWfWQB-5ykpspfW9fO-ZEjMNrc4MlaeAxDPJRKRhVbReNf6BdPeB1IR0xOXkyD9PpcEgkkswnFm7E=w1894-h853');
+  background-image: url('./img/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: calc(100vh - 72px);
@@ -52,7 +52,7 @@ nav ul li a{
   text-align: center;
   position: absolute;
   top: 40%;
-  left: 33%;
+  left: 28%;
   font-size: 1.3em;
 }
 .hi p{
