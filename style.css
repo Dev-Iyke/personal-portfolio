@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #303841;
+  font-family: 'Poppins',sans-serif;
+}
+
+/******* HEADER SECTION ********/
+nav{
+  background-color: #038f62;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav h2{
+  background-color: white;
+  color: #038f62;
+  padding: 1rem;
+}
+nav ul{
+  display: flex;
+  gap: 5rem;
+ 
+}
+nav ul li{
+  list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/******* HERO SECTION ********/
+.hero{
+  background-image: url('https://lh3.googleusercontent.com/drive-storage/AJQWtBMH8KG4J8cYjzg-3k0JmFmYGQ2Guq6gOYxWfWQB-5ykpspfW9fO-ZEjMNrc4MlaeAxDPJRKRhVbReNf6BdPeB1IR0xOXkyD9PpcEgkkswnFm7E=w1894-h853');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 72px);
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.578);
+  width: 100%;
+  position: relative;
+}
+.hi{
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  font-size: 1.3em;
+}
+.hi p{
+  color: #038f62;
+  font-style: italic;
+  font-weight: 200;
+}
+
+/******* BUILD SECTION ********/
+.build{ 
+  color: rgb(219, 218, 218);
+  width: 60%;
+  margin: 6rem auto;
+  text-align: center;
+}
+.build h1{
+  font-size: 2.5rem;
+}
+.build p{
+  font-style: italic;
+  font-weight: 200;
+  margin-bottom: 2.6rem;
+}
+.links-one, .links-two{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content:  center;
+  padding: .5rem;
+}
+.build a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+/******* FOOTER SECTION ********/
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(219, 218, 218);
+  font-weight: 300;
+  padding: 1.5rem;
+}
