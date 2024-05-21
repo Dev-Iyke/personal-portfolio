@@ -39,11 +39,11 @@ nav ul li a{
 /******* HERO SECTION ********/
 .hero{
   background-image: url('./img/bg.png');
+  background-color: rgba(0, 0, 0, 0.578);
   background-repeat: no-repeat;
   background-size: cover;
   height: calc(100vh - 72px);
   background-blend-mode: overlay;
-  background-color: rgba(0, 0, 0, 0.578);
   width: 100%;
   position: relative;
 }
